@@ -302,7 +302,7 @@ footer {
 }
 
 
-/* for modile decives - 950px wide and lower */
+/* for small decives - 950px wide and lower */
 
 @media screen and (max-width: 950px) {
 
@@ -339,6 +339,18 @@ footer {
         padding: 0 20px;
     }
 
+    #photos {
+        column-count: 3;
+    }
 
 
+
+}
+
+/* for mobile decives - 800px wide and lower */
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
